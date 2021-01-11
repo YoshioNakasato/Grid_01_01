@@ -16,7 +16,7 @@ df1 = pd.DataFrame({
 
 # テーブル表示　静的なテーブル(表)を作成したい時
 expander1 = st.beta_expander('Grid Information')
-expander1.write.table(df1)
+expander1.write.st.table(df1)
 #st.table(df1)
 
 # 折れ線グラフ
